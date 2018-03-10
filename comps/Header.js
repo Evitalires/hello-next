@@ -9,10 +9,10 @@ const Header = () => (
         <Link href="https://evitalires.github.io/hello-next">
           <a style={linkStyle}>Home</a>
         </Link>
-        <Link href="./blog">
+        <Link href="https://evitalires.github.io/hello-next/blog">
           <a style={linkStyle}>Blog</a>
         </Link>
-        <Link href="./markDown">
+        <Link href="https://evitalires.github.io/hello-next/markDown">
           <a style={linkStyle}>MarkDown</a>
         </Link>
     </div>
