@@ -30,7 +30,7 @@ var PostLink = function PostLink(_ref) {
   var post = _ref.post;
   return _react2.default.createElement('li', {
     className: 'jsx-697728844'
-  }, _react2.default.createElement(_link2.default, { as: '/p/' + post.id, href: '/blogs?title=' + post.title }, _react2.default.createElement('a', {
+  }, _react2.default.createElement(_link2.default, { as: '/blogs/' + post.id, href: '/blogs?title=' + post.title }, _react2.default.createElement('a', {
     className: 'jsx-697728844'
   }, post.title)), _react2.default.createElement(_style2.default, {
     styleId: '697728844',
