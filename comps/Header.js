@@ -6,7 +6,7 @@ const linkStyle = {
 
 const Header = () => (
     <div>
-        <Link href="./">
+        <Link href="https://evitalires.github.io/hello-next">
           <a style={linkStyle}>Home</a>
         </Link>
         <Link href="./blog">
