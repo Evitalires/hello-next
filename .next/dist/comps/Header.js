@@ -19,7 +19,7 @@ var linkStyle = {
 };
 
 var Header = function Header() {
-  return _react2.default.createElement("div", null, _react2.default.createElement(_link2.default, { href: "/" }, _react2.default.createElement("a", { style: linkStyle }, "Home")), _react2.default.createElement(_link2.default, { href: "/blog" }, _react2.default.createElement("a", { style: linkStyle }, "Blog")), _react2.default.createElement(_link2.default, { href: "/markDown" }, _react2.default.createElement("a", { style: linkStyle }, "MarkDown")));
+  return _react2.default.createElement("div", null, _react2.default.createElement(_link2.default, { href: "./" }, _react2.default.createElement("a", { style: linkStyle }, "Home")), _react2.default.createElement(_link2.default, { href: "./hello-next/blog" }, _react2.default.createElement("a", { style: linkStyle }, "Blog")), _react2.default.createElement(_link2.default, { href: "./markDown" }, _react2.default.createElement("a", { style: linkStyle }, "MarkDown")));
 };
 
 exports.default = Header;
